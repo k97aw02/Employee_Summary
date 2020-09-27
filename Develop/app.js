@@ -164,7 +164,7 @@ function writeHTML() {
     let html = render(team)
 
     fs.writeFile(outputPath, html, (err) => {
-        (err) ? console.log(err) : console.log('Congrats! Enjoy your employee page.');
+        (err) ? console.log(err) : console.log('Done');
     });
 }
 
